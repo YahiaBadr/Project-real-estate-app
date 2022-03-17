@@ -73,8 +73,8 @@ export default function ButtonAppBar() {
             >
             <Link to="/"><li onClick={handleClose}>Home</li></Link>
             <br/>
-            <Link to="/listings"><li onClick={handleClose}>Realtors</li></Link>
-            <br/>
+            {/* <Link to="/listings"><li onClick={handleClose}>Realtors</li></Link> */}
+            {/* <br/> */}
             <Link to="/search"><li onClick={handleClose}>Search</li></Link>
             <br/>
             <Link to="/map"><li onClick={handleClose}>Contact Us</li></Link>
@@ -103,7 +103,7 @@ export default function ButtonAppBar() {
             >
               Home
             </Button>
-            <Button
+            {/* <Button
               variant="contained"
               color="primary"
               style={{
@@ -115,7 +115,7 @@ export default function ButtonAppBar() {
               to="/listings"
             >
               Realtors
-            </Button>
+            </Button> */}
             <Button
               variant="contained"
               color="primary"

@@ -21,8 +21,8 @@ class Search extends Component {
         <React.Fragment>
           <Filter
             updateFilter={updateFilter}
-            postcodes={allListings
-              .map(listing => listing.postcode.split(' ')[0])
+            citys={allListings
+              .map(listing => listing.city.split(' ')[0])
               .filter((item, i, arr) => arr.indexOf(item) === i)}
           />
           <div className="columns">

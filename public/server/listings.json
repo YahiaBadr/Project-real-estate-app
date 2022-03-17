@@ -3,8 +3,8 @@
     "id": 1,
     "image": "1.jpg",
     "title": "2 bedroom duplex for sale",
-    "address": "Mason Street, Manchester, Greater Manchester, M4",
-    "postcode": "M4",
+    "address": "Mason Street, Manchester, Greater Manchester, Cairo",
+    "city": "Cairo",
     "price": 254950,
     "description": "HELP TO BUY AVAILABLE! Move into your new apartment in Q1 2019!",
     "features": [
@@ -29,8 +29,8 @@
     "id": 2,
     "image": "2.jpg",
     "title": "4 bedroom penthouse for sale",
-    "address": "Beetham Tower, 301 Deansgate M3 4LX",
-    "postcode": "M3 4LX",
+    "address": "Beetham Tower, 301 Deansgate Giza 4LX",
+    "city": "Giza 4LX",
     "price": 3500000,
     "description": "A rare opportunity to purchase a superb four bedroom, custom designed triplex apartment set on floors 44, 45 and 46 of Manchesters most iconic building, The Beetham Tower.",
     "features": [
@@ -55,8 +55,8 @@
     "id": 3,
     "image": "3.jpg",
     "title": "3 bedroom flat for sale",
-    "address": "1 Rice Street, Castlefield, Manchester, Greater Manchester, M3",
-    "postcode": "M3",
+    "address": "1 Rice Street, Castlefield, Manchester, Greater Manchester, Giza",
+    "city": "Giza",
     "price": 2000000,
     "description": "The Penthouse 360 Building. Total floor area of approximately 4780 Sq. Ft. A labour of love, a vision of creating arguably one of the best living spaces with no expense spared in the city centre.",
     "features": [
@@ -69,15 +69,15 @@
     ],
     "details": [
       "The Penthouse 360 Building. Total floor area of approximately 4780 Sq. Ft. A labour of love, a vision of creating arguably one of the best living spaces with no expense spared in the city centre. Several architect plans were commissioned with the best one chosen to create an inspired, spacious, and highly comfortable home that's the last word in both luxury & privacy. Not just internally but also harnessing the phenomenal views of The City of Manchester, The Town Hall, Salford, Media City, & Castlefield Basin. Consisting of: key access only lift, lobby / gym area, Grand entrance hallway, WC, Living area measuring close to 50 ft. Bespoke circular kitchen, additional laundry kitchen. The Cheshire room is quiet, peaceful and relaxing with handmade AV furniture. Three luxury bedrooms and double en-suites. The Master having a handmade dressing room. External private terrace and a balcony. Climate control system controlled room-by-room offering both air con & heat with slot diffusers that are flush providing the ideal climate throughout the year. Electric blind spurs are fitted throughout. Highly insulated and sound proofed. A quiet oasis within the city.",
-      "Roman soldiers, led by General Agricola, marched into the north-west of England in 79 AD. For strategic reasons they selected the Castlefield location for a fort, called Manucunium, which they built on a rocky outcrop protected by the Rivers Irwell and Medlock. This is the first definite record of human settlement in Manchester. Castlefield was designated a conservation area in 1980 and the United Kingdom's first designated Urban Heritage Park. Manchester has been successful in its bid to join UNESCO’s worldwide Creative Cities network as a City of Literature. Location:360 Building 1 Rice Street Castlefield Manchester M3 4JL"
+      "Roman soldiers, led by General Agricola, marched into the north-west of England in 79 AD. For strategic reasons they selected the Castlefield location for a fort, called Manucunium, which they built on a rocky outcrop protected by the Rivers Irwell and Medlock. This is the first definite record of human settlement in Manchester. Castlefield was designated a conservation area in 1980 and the United Kingdom's first designated Urban Heritage Park. Manchester has been successful in its bid to join UNESCO’s worldwide Creative Cities network as a City of Literature. Location:360 Building 1 Rice Street Castlefield Manchester Giza 4JL"
     ]
   },
   {
     "id": 4,
     "image": "4.jpg",
     "title": "4 bedroom penthouse for sale",
-    "address": "Leftbank, Spinningfields, Manchester, M3 3AE",
-    "postcode": "M3 3AE",
+    "address": "Leftbank, Spinningfields, Manchester, Giza 3AE",
+    "city": "Giza 3AE",
     "price": 2000000,
     "description": "We're delighted to present this exceptional four bedroom penthouse apartment on the top floor of the highly sought-after and only residential block on Spinningfields.",
     "features": [
@@ -101,8 +101,8 @@
     "id": 5,
     "image": "5.jpg",
     "title": "3 bedroom apartment for sale",
-    "address": "No1 Deansgate, Manchester, M1 3AZ",
-    "postcode": "M1 3AZ",
+    "address": "No1 Deansgate, Manchester, October 3AZ",
+    "city": "October 3AZ",
     "price": 1250000,
     "description": "A three bedroom triplex penthouse in the iconic No1 Deansgate. Further details available on application. Call 0161 834 8340 and ask for Jennie.",
     "features": [
@@ -122,8 +122,8 @@
     "id": 6,
     "image": "6.jpg",
     "title": "3 bedroom penthouse for sale",
-    "address": "Oxygen, Store Street, Manchester, M1",
-    "postcode": "M1",
+    "address": "Oxygen, Store Street, Manchester, October",
+    "city": "October",
     "price": 1075034,
     "description": "Located in the heart of Manchester Oxygen is the City's most 'EXCLUSIVE' five star LEISURE FACILITIES and SKY GARDENS. Oxygen will be a beacon of Manchester's skyline featuring 343 STYLISH apartments, 12 townhouses.",
     "features": [

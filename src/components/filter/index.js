@@ -13,7 +13,7 @@ class Filter extends React.Component {
 
    state = {
        priceFrom: '',
-       postcode: '',
+       city: '',
        sortOrder: '',
        sortOrders: ['Highest First', 'Lowest First']
 }
@@ -27,7 +27,7 @@ class Filter extends React.Component {
 
   render() {
 
-   const postcodes = []
+   const citys = []
 
 
     const containerClasses = classnames('container', 'mb-1', styles.container)
@@ -66,19 +66,19 @@ class Filter extends React.Component {
             <div className="column col-4 col-xs-12">
               <div className="form-group">
                 <div className="col-3 col-sm-12">
-                  <label className="form-label" htmlFor="postcode">
-                    Postcode
+                  <label className="form-label" htmlFor="city">
+                    City
                   </label>
                 </div>
                 <div className="col-9 col-sm-12">
                      <select
                       className="form-select"
-                     id="postcode"
-                     value={this.state.postcode}
-                    onChange={event => this.setState({ postcode: event.target.value })}
+                     id="city"
+                     value={this.state.city}
+                    onChange={event => this.setState({ city: event.target.value })}
 >
                   <option value="">Choose...</option>
-                 {this.props.postcodes.map(pc => (
+                 {this.props.citys.map(pc => (
                  <option key={pc} value={pc.toLowerCase()}>
                 {pc}
                 </option>

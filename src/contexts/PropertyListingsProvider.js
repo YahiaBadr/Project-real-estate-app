@@ -19,14 +19,14 @@ export class PropertyListingsProvider extends React.Component {
    
 
 
-    const { priceFrom, postcode, sortOrder } = filter
+    const { priceFrom, city, sortOrder } = filter
     let result = listings
     if (priceFrom) {
       const from = priceFrom
       result = result.filter(item => item.price >= from)
     }
-    if (postcode) {
-      result = result.filter(item => item.postcode.toLowerCase().startsWith(postcode))
+    if (city) {
+      result = result.filter(item => item.city.toLowerCase().startsWith(city))
     }
     if (sortOrder) {
       if (sortOrder === 'highestfirst') {
