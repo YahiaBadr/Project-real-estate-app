@@ -75,7 +75,7 @@ export default function ButtonAppBar() {
             <br/>
             {/* <Link to="/listings"><li onClick={handleClose}>Realtors</li></Link> */}
             {/* <br/> */}
-            <Link to="/search"><li onClick={handleClose}>Search</li></Link>
+            <Link to="/search"><li onClick={handleClose}>Properties</li></Link>
             <br/>
             <Link to="/map"><li onClick={handleClose}>Contact Us</li></Link>
             <br/>
@@ -127,7 +127,7 @@ export default function ButtonAppBar() {
               component={Link}
               to="/search"
             >
-              Search
+              Properties
             </Button>
             <Button
               variant="contained"

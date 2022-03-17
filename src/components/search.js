@@ -5,7 +5,7 @@ import { PropertyListingsProvider, PropertyListingsConsumer } from '../contexts/
 
 import Listing from '../components/listing'
 import Filter from '../components/filter'
-class Search extends Component {
+class Properties extends Component {
   render(){
     return (
       
@@ -47,7 +47,7 @@ class Search extends Component {
 
 
 
-// export default withStyles(styles)(Search)
-export default Search
+// export default withStyles(styles)(Properties)
+export default Properties
 
 
