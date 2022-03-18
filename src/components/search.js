@@ -27,7 +27,7 @@ class Properties extends Component {
           />
           <div className="columns">
             {propertyListings.map(listing => (
-              <Listing listing={listing} key={listing.address} />
+              !listing.booked && <Listing listing={listing} key={listing.address} />
             ))}
           </div>
         </React.Fragment>

@@ -36,7 +36,7 @@ export default function SimplePopover() {
   return (
     <div className="popoverBtn">
       <Button aria-describedby={id} variant="contained" color="primary" onClick={handleClick}>
-        Buy house
+        Add Follow Up
       </Button>
       <Popover
         id={id}
@@ -57,11 +57,11 @@ export default function SimplePopover() {
           <form className={classes.root} noValidate autoComplete="off">
           <TextField id="outlined-basic" label="First Name" variant="outlined" />
           <TextField id="outlined-basic" label="Last name" variant="outlined" />
-          <TextField id="outlined-basic" label="Email" variant="outlined" />
+          <TextField id="outlined-basic" label="Phone Number" variant="outlined" />
           </form>
           <div className="popoverSendBtn">
             <Button variant="outlined" color="primary" component={Link} to='/'>
-              Contact me
+              Save
             </Button>
           </div>
         </div>

@@ -1,31 +1,42 @@
 import React from 'react'
+import { PropertyListingsConsumer, PropertyListingsProvider } from '../../contexts/PropertyListingsProvider'
+import Filter from '../filter'
+import Listing from '../listing'
 
 function Map() {
-  const address = 'Mason Street, Manchester, Greater Manchester, Cairo'
-  const search = `https://maps.google.com/maps?q=${address}&t=&z=16&ie=UTF8&iwloc=&output=embed`
-
-  return (
-    <div style={{marginTop: "5%"}}>
-      <h2>You can contact us by:</h2> <br/>
-      <h3>Calling: +1-226-224-1256</h3> <br/>
-      <h3>Or Email: real_Estate@gmail.com</h3>
-      <div className="mapouter">
-        <div className="gmap_canvas">
-          <iframe
-            title={address}
-            src={search}
-            width="100%"
-            height="500"
-            id="gmap_canvas"
-            frameBorder="0"
-            scrolling="no"
-            marginHeight="0"
-            marginWidth="0"
+    return (
+      
+    <div>
+      <React.Fragment>
+        <div className="container">
+          <PropertyListingsProvider>
+        <PropertyListingsConsumer>
+    {function(value) {
+      const { propertyListings, allListings, updateFilter } = value
+      return (
+        <React.Fragment>
+          <Filter
+            updateFilter={updateFilter}
+            citys={allListings
+              .map(listing => listing.city.split(' ')[0])
+              .filter((item, i, arr) => arr.indexOf(item) === i)}
           />
+          <div className="columns">
+            {propertyListings.map(listing => (
+              listing.booked && <Listing listing={listing} key={listing.address} />
+            ))}
+          </div>
+        </React.Fragment>
+      )
+    }}
+  </PropertyListingsConsumer>
+  </PropertyListingsProvider>
+
+      
         </div>
-      </div>
-    </div>
-  )
-}
+      </React.Fragment>
+  </div>
+    )
+  }
 
 export default Map

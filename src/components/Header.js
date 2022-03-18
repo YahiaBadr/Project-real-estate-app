@@ -11,7 +11,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { useTheme } from "@material-ui/core/styles";
 import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -140,7 +139,7 @@ export default function ButtonAppBar() {
               component={Link}
               to="/map"
             >
-              Contact us
+              Follow Ups
             </Button>
             <Button
               variant="contained"
@@ -154,9 +153,6 @@ export default function ButtonAppBar() {
               to="/login"
             >
               Login
-            </Button>
-            <Button color="inherit" href="tel:+1-555-555-1212">
-              Call us
             </Button>
           </div>
         </Toolbar>

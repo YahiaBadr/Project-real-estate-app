@@ -27,9 +27,6 @@ class Filter extends React.Component {
 
   render() {
 
-   const citys = []
-
-
     const containerClasses = classnames('container', 'mb-1', styles.container)
     const formClasses = classnames('form-horizontal', styles.form)
 

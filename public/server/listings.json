@@ -125,6 +125,7 @@
     "address": "Oxygen, Store Street, Manchester, October",
     "city": "October",
     "price": 1075034,
+    "booked": true,
     "description": "Located in the heart of Manchester Oxygen is the City's most 'EXCLUSIVE' five star LEISURE FACILITIES and SKY GARDENS. Oxygen will be a beacon of Manchester's skyline featuring 343 STYLISH apartments, 12 townhouses.",
     "features": [
       "7% Rental yields",
